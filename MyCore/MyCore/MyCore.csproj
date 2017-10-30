@@ -19,4 +19,9 @@
     <None Include="wwwroot\lib\ueditor\1.4.3\net\net.sln" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MyCore.Model\MyCore.Model.csproj" />
+    <ProjectReference Include="..\MyCore.Repository\MyCore.Repository.csproj" />
+  </ItemGroup>
+
 </Project>
