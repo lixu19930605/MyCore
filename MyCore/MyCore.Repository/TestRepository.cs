@@ -74,5 +74,22 @@ namespace MyCore.Repository
 
             return dt;
         }
+
+        public DataTable GetTableName(string dataBaseName)
+        {
+            SqlConnection sqlConnection = new SqlConnection("server=.;user=sa;pwd=lixu19930605.");
+            sqlConnection.Open();
+
+            DataTable dt = new DataTable();
+
+            SqlCommand cmd = sqlConnection.CreateCommand();
+            cmd.CommandText = $@"USE {dataBaseName} SELECT Name FROM SysObjects Where XType='U' ORDER BY Name";
+
+            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd.CommandText, sqlConnection);
+
+            sqlDataAdapter.Fill(dt);
+
+            return dt;
+        }
     }
 }

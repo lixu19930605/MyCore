@@ -177,7 +177,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {},
+    "D:\\MyConfiguration\\lx17448\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -186,17 +186,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "F:\\GitHub\\Test\\MyCore\\MyCore.Service\\MyCore.Service.csproj",
+      "projectUniqueName": "D:\\Code\\MySelf\\Test\\MyCore\\MyCore.Service\\MyCore.Service.csproj",
       "projectName": "MyCore.Service",
-      "projectPath": "F:\\GitHub\\Test\\MyCore\\MyCore.Service\\MyCore.Service.csproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "F:\\GitHub\\Test\\MyCore\\MyCore.Service\\obj\\",
+      "projectPath": "D:\\Code\\MySelf\\Test\\MyCore\\MyCore.Service\\MyCore.Service.csproj",
+      "packagesPath": "D:\\MyConfiguration\\lx17448\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\MySelf\\Test\\MyCore\\MyCore.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\MyConfiguration\\lx17448\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

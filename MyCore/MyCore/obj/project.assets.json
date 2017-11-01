@@ -12565,7 +12565,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {},
+    "D:\\MyConfiguration\\lx17448\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12574,17 +12574,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "F:\\GitHub\\Test\\MyCore\\MyCore\\MyCore.csproj",
+      "projectUniqueName": "D:\\Code\\MySelf\\Test\\MyCore\\MyCore\\MyCore.csproj",
       "projectName": "MyCore",
-      "projectPath": "F:\\GitHub\\Test\\MyCore\\MyCore\\MyCore.csproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "F:\\GitHub\\Test\\MyCore\\MyCore\\obj\\",
+      "projectPath": "D:\\Code\\MySelf\\Test\\MyCore\\MyCore\\MyCore.csproj",
+      "packagesPath": "D:\\MyConfiguration\\lx17448\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\MySelf\\Test\\MyCore\\MyCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\MyConfiguration\\lx17448\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12597,11 +12597,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "F:\\GitHub\\Test\\MyCore\\MyCore.Model\\MyCore.Model.csproj": {
-              "projectPath": "F:\\GitHub\\Test\\MyCore\\MyCore.Model\\MyCore.Model.csproj"
+            "D:\\Code\\MySelf\\Test\\MyCore\\MyCore.Model\\MyCore.Model.csproj": {
+              "projectPath": "D:\\Code\\MySelf\\Test\\MyCore\\MyCore.Model\\MyCore.Model.csproj"
             },
-            "F:\\GitHub\\Test\\MyCore\\MyCore.Repository\\MyCore.Repository.csproj": {
-              "projectPath": "F:\\GitHub\\Test\\MyCore\\MyCore.Repository\\MyCore.Repository.csproj"
+            "D:\\Code\\MySelf\\Test\\MyCore\\MyCore.Repository\\MyCore.Repository.csproj": {
+              "projectPath": "D:\\Code\\MySelf\\Test\\MyCore\\MyCore.Repository\\MyCore.Repository.csproj"
             }
           }
         }

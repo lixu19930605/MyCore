@@ -33,6 +33,36 @@ namespace MyCore.Controllers
             {
                 list.Add(new DataModel { Name = dr["name"].ToString() });
             }
+            foreach (var item in list)
+            {
+                var table = _testRepository.GetTableName(item.Name);
+
+                var tt = new List<DataModel>();
+                foreach (DataRow dr in table.Rows)
+                {
+                    tt.Add(new DataModel { Name = dr["Name"].ToString() });
+                }
+
+                item.TableList = tt;
+            }
+
+            return list;
+        }
+
+        public List<TableModel> Get(string tableName)
+        {
+            var result = _testRepository.Get(tableName);
+
+            var list = new List<TableModel>();
+            foreach (DataRow dr in result.Rows)
+            {
+                list.Add(new TableModel { TableName = dr["TableName"].ToString() });
+                list.Add(new TableModel { FieldName = dr["FieldName"].ToString() });
+                list.Add(new TableModel { Type = dr["Type"].ToString() });
+                list.Add(new TableModel { Length = dr["Length"].ToString() });
+                list.Add(new TableModel { DefaultValue = dr["DefaultValue"].ToString() });
+                list.Add(new TableModel { FieldDescription = dr["FieldDescription"].ToString() });
+            }
 
             return list;
         }
